@@ -3,12 +3,27 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Practice</title>
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
 <style type="text/css">
 body {
 	background-image: url(the-vampire-diaries-season-4-rebekah.jpg);
 	background-repeat: repeat;
 }
 </style>
+<script type="text/javascript" charset="utf-8">
+
+        // Wait for Cordova to load
+        //
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+        // Cordova is ready
+        //
+        function onDeviceReady() {
+            playAudio("Ingrid Michaelson - Die Alone.mp3");
+        }
+
+        
+</script>
 </head>
 
 <body>
